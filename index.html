@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Particle System </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <h1 class="header-title">
+            Welcome
+        </h1>
+      </div>
+      <div class="header-center">
+        <button id="pause-btn" class="pause-btn">
+            Pause
+        </button>
+        <button id="start-btn" class="pause-btn">
+          Resume
+      </button>
+      </div>
+      <div class="header-right">
+        <span class="label-toggle">Rain</span>
+        <label class="header-switch">
+          <input type="checkbox" id="header-checkbox">
+          </input>
+          <div class="slider"></div>
+        </label>
+        <span class="label-toggle">Snow</span>
+      </div>
+    </header>
+    <div class="rain-sim" id="rain-sim"> </div>
+    <div class="snow-sim" id="snow-sim"> </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
